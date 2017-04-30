@@ -2,9 +2,9 @@
 
 lb config noauto \
     -b iso-hybrid \
-    --image-name tv \
+    --image-name auto \
     -d jessie \
     --parent-distribution jessie \
     --backports true \
-    --debootstrap-options "" \
+    --debootstrap-options "--variant=minbase --include=busybox-syslogd" \
     --initsystem sysvinit
