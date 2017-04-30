@@ -1,2 +1,4 @@
 # auto-lb-base
-Scripts to help generating live CD's
+
+Auto scripts to help generating live CD's. Using these as a basis for other
+distro-alike projects.
